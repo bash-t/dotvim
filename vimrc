@@ -39,3 +39,21 @@ set guioptions=ac
 let g:xptemplate_key = '<Tab>'
 " autocomplete braces
 let g:xptemplate_brace_complete = 1
+
+
+set nobackup
+set nowritebackup 
+"set up linenumbers
+set nu
+"use this colorscheme
+colorscheme BusyBee_mod2
+"for the changeoptionCommand do not delete the object immediately, but mark it
+"with a '$' at the end of the selected object
+set cpoptions+=$
+
+set expandtab
+set shiftwidth=4
+set softtabstop=4
+
+"Spitze klammern von zusammengehörenden Tags markierne
+set mps+=<:>
